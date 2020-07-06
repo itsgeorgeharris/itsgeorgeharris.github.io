@@ -1,6 +1,7 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <title>Web Developer Portfolio | George I. Harris</title>
         <!-- Required meta tags -->
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -21,8 +22,11 @@
 
         <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700&display=swap" rel="stylesheet">
 
-        <title>UX Design Portfolio | George I. Harris</title>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
+        <link href="/your-path-to-fontawesome/css/all.css" rel="stylesheet"> <!--load all styles -->
     </head>
     <body>
         <div class="headerbg">
@@ -34,15 +38,21 @@
                 </div> -->
                 <section class="nav-bg sticky-nav">
                     <nav class="container">
-                        <div class="mobile-no">
+                        <div class="top-logo">
                             <!-- <img class="home-phone-icon" src="/assets/george-test/images/75x75-phone-icon.png" alt="Mobile Phone Icon"> -->
-                            <h3>George I. Harris</h3>
+                            
+
                         </div>
-                        <ul class="col-sm-8 text-right" style="padding-right:0; float:right;">
-                            <li class="col-sm-2"><a href="/contact-us">WORK</a></li>
-                            <li class="col-sm-2"><a href="/contact-us">ABOUT</a></li>
-                            <li class="col-sm-2"><a href="/contact-us">TESTIMONIALS</a></li>
-                            <li class="col-sm-2"><a class="lets-talk" href="/contact-us">LET'S TALK</a></li>
+                        <ul class="col-sm-6 text-left" style="padding-right:0; float:left;">
+                            <li class="col-sm-2" ><a href="#portfolio"><i class="fas fa-home"></i></a></li>
+                            <li class="col-sm-2"><a href="about.html">ABOUT</a></li>
+                            <li class="col-sm-2"><a href="">TESTIMONIALS</a></li>
+                        </ul>
+                        <ul class="col-sm-6 text-right" style="padding-right:0; float:right;">
+                            <li class="col-sm-2" ><a href="#portfolio">PORTFOLIO</a></li>
+                            <li class="col-sm-2"><a href="about.html">ABOUT</a></li>
+                            <li class="col-sm-2"><a href="">TESTIMONIALS</a></li>
+                            <li class="col-sm-2"><a class="lets-talk" href="/contact-us">GET IN TOUCH</a></li>
                         </ul>
                     </nav>
                 </section>
@@ -69,21 +79,21 @@
         <section style="background-image: url('');" class="banner-image-main">
             <div class="container">
                 <div class="row">
-                    <div class="left-centered col-sm-6">
+                    <div class="left-centered col-sm-5">
                         <h2 style="font-size: 1rem;">Hi, I'm an aspiring Front-End Developer</h2>
-                        <h1 class="herotitle">Recent Computing Graduate Seeking Birmingham Based Opportunities</h1>
+                        <h1 class="herotitle">Seeking a Web Development Career</h1>
                         <p class="titlep">A final year Birmingham based student seeking<br/>oppotunities in Front-End Web Development.</p>
                         <div class="fab-socials">
-                            <a href="https://www.instagram.com/georgeisaacharris/" target="_blank"><i class="fab fab-socialbtn fa-instagram" style="font-weight: bold;"></i></a>
-                            <a href="https://www.linkedin.com/in/george-isaac-harris/" target="_blank"><i class="fab fab-socialbtn fa-linkedin"></i></a>
-                            <!-- <a href="https://www.facebook.com/george.harris.7921975" target="_blank"><i class="fab fab-socialbtn fa-facebook"></i></a> -->
                             <a href="https://github.com/itsgeorgeharris" target="_blank"><i class="fab fab-socialbtn fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/george-isaac-harris/" target="_blank"><i class="fab fab-socialbtn fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/georgeisaacharris/" target="_blank"><i class="fab fab-socialbtn fa-instagram" style="font-weight: bold;"></i></a>
+                            <!-- <a href="https://www.facebook.com/george.harris.7921975" target="_blank"><i class="fab fab-socialbtn fa-facebook"></i></a> -->
                         </div>
                         <!-- <a class="buttons small-button retrieve-plan text-center" href="/contact-us">Request a call back</a> -->
                     </div>
                     
-                    <div class="right-centered col-sm-6 text-center">
-                        <img class="heropic" src="assets/images/profile-pic.png" alt="">
+                    <div class="right-centered col-sm-7 text-center">
+                        <img class="heropic" src="assets/images/hero-img-programmer.png" alt="">
                     </div>
                 </div>
             </div>
@@ -91,29 +101,74 @@
 
         <div class="container">
             <div class="container box-shadow skills-box">
-                <div class="col-sm-3 text-center"><i class="fab fab-skills fa-sketch"></i><h4><br/>UX Design<br/></h4><h4 class="skills-bottom-line">& Prototyping</h4></div>
+                <div class="col-sm-3 text-center"><i class="fas fab-skills fa-laptop-code"></i></i><h4><br/>Front-End Development</h4><h4 class="skills-bottom-line">HTML, CSS, JavaScript</h4></div>
+                <div class="col-sm-3 text-center"><i class="fab fab-skills fa-sketch"></i><h4><br/>Interaction Design<br/></h4><h4 class="skills-bottom-line">UX Design & Prototyping</h4></div>
                 <div class="col-sm-3 text-center"><i class="fas fab-skills fa-users"></i><h4><br/>CXJM & Design Sprints<br/></h4><h4 class="skills-bottom-line">Customer-Centric Solutions</h4></div>
-                <div class="col-sm-3 text-center"><i class="fas fab-skills fa-book"></i><h4><br/>Applied Research<br/></h4><h4 class="skills-bottom-line">Problem Solvering</h4></div>
-                <div class="col-sm-3 text-center"><i class="fas fab-skills fa-laptop-code"></i></i><h4><br/>Front-End Development</h4><h4 class="skills-bottom-line">HTML, CSS, Javascript</h4></div>
+                <div class="col-sm-3 text-center"><i class="fas fab-skills fa-book"></i><h4><br/>Applied Research<br/></h4><h4 class="skills-bottom-line">Creative Problem-Solving</h4></div>
             </div>
         </div>
 
-        <div class="col-sm-12 skills-box" style="padding: 0; margin-top: 60px; height: 645px;">
-            <div class="col-sm-6 text-center" style="background-color: var(--main-body-color); padding:0;"><img src="assets/images/coop-mcroapp-full-square.png" alt="" style="width: 100%;"></div>
-            <div class="col-sm-6 text-center" style="background-color: var(--main-body-color);; padding: 0;"><i class="fas fab-skills fa-users"></i><h4><br/>CXJM & Design Sprints<br/></h4><h4>Customer-Centric Solutions</h4></div>
-        </div>
-
-        <div class="col-sm-12 work-sqaures" style="padding: 300px;">
-
-        </div>
-
-        <div class="container">
-            
-        </div>
-
-        <div class="container">
-            <hr style="margin:40px 0;"/>
-        </div>
+        <section class="about-me-container">
+            <div class="container">
+                <a id="portfolio"></a>
+                <div class="row">                    
+                    <div class="port-card-logo box-shadow col-sm-3">
+                        <img src="assets/images/funeral-logo-2line.png" alt="Central England Co-Op Funeralcare">
+                        <div class="port-bio">
+                            <h3 style="color: #908bb9 !important;"></i>The Co-Operative Funeralcare</h3>
+                            <p>With goals of optimising customer access speeds and revamping outdated UX, I was tasked with the redevelopment of <strong>Central England Co-Op</strong>s customer-facing Funeralcare website.
+                            <br/><a href=""><button class="port-info-button">Learn More<i class="fas fa-angle-double-right"></i></button></a></p>
+                        </div>
+                    </div>
+                    <div class="port-card-showcase  col-sm-9">
+                        <img src="assets/images/funeralcare-portfolio.png" data-toggle="modal" data-target="#exampleModalCenter" alt="">
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered model-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/images/funeralcare-portfolio.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">                    
+                    <div class="port-card-logo box-shadow col-sm-3">
+                        <img src="assets/images/nhc-logo.JPG" alt="Nancy Harris Counselling">
+                        <div class="port-bio">
+                            <h3 style="color: #64328e !important;"></i>Nancy Harris Counselling</h3>
+                            <p>I was approached my Nancy Harris, an independant therapist hosting private counselling sessions from her own home, to help her expand her online reach and generate more customers.
+                            <br/><a href=""><button class="port-info-button">Learn More<i class="fas fa-angle-double-right"></i></button></a></p>
+                        </div>
+                    </div>
+                    <div class="port-card-showcase  col-sm-9">
+                        <img src="assets/images/nhc-portfolio-a4.png" data-toggle="modal" data-target="#exampleModalCenter" alt="">
+                        <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered model-lg" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="assets/images/nhc-portfolio-A4.png" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
         
         <!-- <div class="container">
             <div class="col-sm-12 work-sqaures">
@@ -144,7 +199,7 @@
 
         <div style="padding: 270px 0; background-color: var(--main-b-color)"></div>
 
-        <div class="footer" style="padding: 40px 0; background-image: linear-gradient(to bottom right, #b704ea, #550beb);">
+        <div class="footer" style="padding: 40px 0; background-color: #212529;">
             <div class="container">
                 <div class="fab-socials text-center">
                     <a href="https://www.instagram.com/georgeisaacharris/" target="_blank"><i class="fab fab-socialbtn-footer fa-instagram" style="font-weight: bold;"></i></a>

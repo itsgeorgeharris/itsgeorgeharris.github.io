@@ -2,6 +2,8 @@
     --main-body-color: #fbfcff;
 }
 
+button:focus {outline:0;}
+
 body {
     font-size: 100%;
     font-family: 'Josefin Sans', sans-serif;
@@ -15,25 +17,26 @@ body {
 p {
     font-family: 'Montserrat', sans-serif;
     color: #868b92;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 h2 {
     font-size: 1.2rem;
-    background-image: linear-gradient(to bottom right, #b704ea, rgb(85, 109, 241));
+    background-image: linear-gradient(to bottom right, rgb(92, 102, 239), rgb(84, 68, 167));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
 }
 h3 {
-    font-size: 1rem;
-    color: #908bb9;
-    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.2rem;
+    color: #212529;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 h4 {
     font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
-    color: #fff;
+    color: #fff;a
     /* color: #868b92; */
     line-height: 1.65em;
 }
@@ -89,7 +92,7 @@ nav ul li a {
     color: #868b92;
     /* font-family: "Avenir Next LT W01 Demi", Arial Narrow bold, Arial, sans-serif; */
     font-family: 'Josefin Sans', sans-serif;
-    padding: 13px 15px;
+    padding: 20px 15px;
     display: inline-block;
     transition: background ease-in-out 0.2s;
     font-size: 0.81rem;
@@ -122,7 +125,8 @@ nav ul li a {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
     position: relative;
-    bottom: -16px;
+    top: -6px;
+    padding-left: 8px;
 }
 a:hover {
     text-decoration: none;
@@ -132,8 +136,12 @@ a:hover {
     /* background-color: #6a719a; */
     color: #000;
 }
-.mobile-no {
+.top-logo {
     display: inline;
+}
+.top-logo i {
+    font-size: 3rem;
+    transform: translate(0px, 5px);
 }
 .store-search-form .form-box {
     background-color: #e5e5e5;
@@ -194,9 +202,9 @@ button, input {
 .lets-talk {
     border-radius: 100px;
     /* border: 3px solid #550beb; */
-    background-image: linear-gradient(to bottom right, #ea04a3, #f1d255);
-    /* background-image: linear-gradient(to bottom right, #b704ea, #556df1); */
-    padding: 16px 32px;
+    /* background-image: linear-gradient(to bottom right, #ff8677, #ff77a7); */
+    background-color: #ff8677;
+    padding: 16px 32px !important;
     color: #fff;
     font-size: 0.81rem;
     margin: 4px 0;
@@ -207,7 +215,7 @@ button, input {
     /* background-image: linear-gradient(to bottom right, #550beb, #990beb); */
     background-image: none;
     background-color: #fff;
-    border: 3px solid #b104ea !important;
+    border: 3px solid #ff8677 !important;
     padding: 13px 29px;
     border: 0;
     color: #212529;
@@ -231,13 +239,67 @@ button, input {
 .sticky-link a:hover {
     color: #908bb9;
 }
+.nav-right a {
+    padding: 5px;
+}
 .heropic {
     width: 78%;
-    border-radius: 50%;
+    /* border-radius: 50%; */
     filter: contrast(1.1);
 }
 
-
+.profilepic {
+    width: 78%;
+    border-radius: 50%;
+    filter: contrast(1.1);
+    float: left;
+}
+.about-me-container {
+    margin-top: 20px;
+}
+.about-me-container .row {
+    padding-top: 40px;
+}
+.about-me-container img {
+    width: 100%;
+    padding: 20px;
+}
+.port-card-logo {
+    background-color: #fff;
+    padding: 15px;
+}
+.port-card-showcase img {
+    padding: 40px;
+}
+.port-bio {
+    padding: 20px;
+}
+.port-bio p {
+    margin-top: 15px;
+}
+.port-bio h2 {
+    background-color: #000;
+}
+.port-info-button:hover {
+    background-image: linear-gradient(to bottom right, #5c66ef, #5444a7);
+    padding: 10px;
+    color: #fff;
+    border:none;
+}
+.port-info-button {
+    background-color:  #fff;
+    border-radius: 15px;
+    border: 3px solid rgba(89, 88, 210, 0.86);
+    color: #484f58;
+    padding: 7px;
+    width: 70%;
+    margin-top:60px;
+}
+.port-info-button i {
+    margin-left:5px;
+    transform: translate(1px, 2px);
+    font-size: 1.4rem;
+}
 
 
 .herotitle {
@@ -245,7 +307,7 @@ button, input {
     padding: 1.1rem 1rem 1.1rem 0;
 }
 h1.herotitle {
-    font-size: 3.4rem;
+    font-size: 3.2rem;
     font-weight: bold;
     margin: 10px 0 2px;
 }
@@ -320,14 +382,14 @@ h1.herotitle {
 }
 .fab-socialbtn {
     border-radius: 50%;
-    border: 1px solid rgba(85, 11, 235, 0.61);
+    border: 1px solid rgba(94, 105, 252, 0.68);
     font-size: 1rem;
     padding: 12px 13px;
     margin-right: 3px;
 }
 .fab-socialbtn:hover {
     border-radius: 50%;
-    background-image: linear-gradient(to bottom right, #9204ea, #7e55f1);
+    background-image: linear-gradient(to bottom right, #5c66ef, #5444a7);
     border: 0;
     font-size: 1rem;
     padding: 13px 14px;
@@ -404,16 +466,13 @@ h1.herotitle {
     background-repeat: no-repeat;
     margin-bottom: 20px;
 }
-.mobile-no a {
-    color: #908bb9;
-}
 .home-title-style {
     font-size:1.4rem;
 }
 .fab-skills {
     margin: 10px 0;
     font-size: 3rem;
-    background-image: linear-gradient(to bottom right, #b704ea, rgb(85, 109, 241));
+    background-image: linear-gradient(to bottom right, #5c66ef, #5444a7);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -483,9 +542,14 @@ a {
         margin: 170px auto 0 0;
     }
     .right-centered {
-        margin: 120px auto 75px 0;
+        margin: 110px auto 50px 0;
     }
     .container {
         max-width: 1280px;
     }
+}
+
+@media (min-width: 576px)
+.modal-dialog {
+    max-width: 1200px !important;
 }
